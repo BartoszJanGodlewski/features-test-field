@@ -7,6 +7,6 @@ const MODULES = [CommonModule, MaterialModule];
 @NgModule({
   declarations: [],
   imports: [...MODULES],
-  exports: [...MODULES]
+  exports: [...MODULES],
 })
 export class SharedModule {}

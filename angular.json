@@ -46,7 +46,8 @@
             "aot": true,
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              { "glob": "user.json", "input": "src/app/shared/data", "output": "./assets/" }
             ],
             "styles": [
               "src/styles.scss"

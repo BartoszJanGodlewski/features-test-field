@@ -1,9 +1,9 @@
 import { Injectable } from '@angular/core';
-import { User } from '@shared/models/user';
-import { finalize, tap } from 'rxjs/operators';
-import { UserService } from '@shared/services/user.service';
-import { of } from 'rxjs';
 import { HttpClient } from '@angular/common/http';
+
+import { User } from '@shared/models/user';
+import { tap } from 'rxjs/operators';
+import { UserService } from '@shared/services/user.service';
 
 @Injectable()
 export class AppInitService {
